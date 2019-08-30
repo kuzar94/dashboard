@@ -1,3 +1,8 @@
+##This is how it looks after 4h of working.
+I was stopped at charts. The biggest problem is not the difficult task, but lack of time.
+![Screenshot](screenshot.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
