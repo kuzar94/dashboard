@@ -1,0 +1,51 @@
+{
+  "fund": {
+    "price": 41.236,
+    "performance": 4.1,
+    "performance_year": {
+      "2019": 0.8,
+      "2018": 0.5
+    },
+    "ratings": {
+      "A": 68,
+      "C": 89
+    },
+    "estimated_profit": {
+      "percent": 52,
+      "value": 50000
+    }
+  },
+  "personal_info": {
+    "raise": {
+      "base": 1000,
+      "actual": 1720,
+      "value": 72
+    },
+    "estimated_profit": 56,
+    "mutual_funds": 33
+  },
+  "funds": [
+    {
+      "name:": "Fund A",
+      "data": [
+        { "value": 0, "date": "2018-01-01" },
+        { "value": 12000, "date": "2018-02-01" },
+        { "value": 8000, "date": "2018-03-01" },
+        { "value": 29000, "date": "2018-04-01" },
+        { "value": 16000, "date": "2018-05-01" },
+        { "value": 40000, "date": "2018-06-01" }
+      ]
+    },
+    {
+      "name:": "Fund C",
+      "data": [
+        { "value": 3000, "date": "2018-01-01" },
+        { "value": 16000, "date": "2018-02-01" },
+        { "value": 13000, "date": "2018-03-01" },
+        { "value": 29000, "date": "2018-04-01" },
+        { "value": 17500, "date": "2018-05-01" },
+        { "value": 44000, "date": "2018-06-01" }
+      ]
+    }
+  ]
+}

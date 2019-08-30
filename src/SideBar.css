@@ -1,0 +1,23 @@
+.sideBarDiv {
+  height: 100vh;
+  width: 85px;
+  background-color: rgb(97, 240, 97);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+}
+.sideBarDiv .homeIcon,
+.sideBarDiv .starIcon,
+.sideBarDiv .rectangleIcon,
+.sideBarDiv .fileIcon,
+.sideBarDiv .personIcon {
+  width: 2em;
+  height: 2em;
+  background-color: rgb(212, 18, 18);
+  margin-top: 30px;
+}
+.sideBarDiv .homeIcon {
+  margin-top: 50px;
+}
