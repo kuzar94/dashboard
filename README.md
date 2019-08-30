@@ -1,4 +1,4 @@
-##This is how it looks after 4h of working.
+## This is how it looks after 4h of working.
 I was stopped at charts. The biggest problem is not the difficult task, but lack of time.
 ![Screenshot](screenshot.png)
 
