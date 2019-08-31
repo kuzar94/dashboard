@@ -1,5 +1,5 @@
 ## Finished Work
-![Screenshot](screenshot1.png)
+![Screenshot](screenshot2.png)
 The first version had nearly 80% of the code responsible for downloading data, sending them to children, creating elements based on this data. That's why later I focused the most on CSS, and creating ready-made charts from the library (https://apexcharts.com)
 
 I added icons, animations and tried to reproduce the original as well as possible.
