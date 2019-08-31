@@ -1,6 +1,18 @@
-## This is how it looks after 4h of working.
-I was stopped at charts. The biggest problem is not the difficult task, but lack of time.
+## Finished Work
+![Screenshot](screenshot1.png)
+The first version had nearly 80% of the code responsible for downloading data, sending them to children, creating elements based on this data. That's why later I focused the most on CSS, and creating ready-made charts from the library (https://apexcharts.com)
+
+I added icons, animations and tried to reproduce the original as well as possible.
+However, I could not make a red chart after exceeding 50%, and I could not create the same main chart. This is because the library I used has some limitations. In this application I also did not focus on RWD. The application looks best on the screen 1920X1080. To create a responsive website I would need an additional 4h (because the generated charts are created using ApexCharts) and guidelines.
+
+## This is how it looks after 4h of working
 ![Screenshot](screenshot.png)
+I was stopped at charts. The biggest problem is not the difficult task, but lack of time.
+
+## Conclusion
+To create an application with a ready layout its good to not have only a photo, but also the size of the font, its type, spacing, colors. If I had it, it would make work easier.
+
+Before using the library, it is worth reading the documentation. ApexCharts has many limitations, if I used a different library I would finish work much earlier.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -65,7 +77,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ma
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
 ### Deployment
-x
+
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 ### `npm run build` fails to minify
