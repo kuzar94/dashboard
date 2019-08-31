@@ -5,7 +5,7 @@ The first version had nearly 80% of the code responsible for downloading data, s
 I added icons, animations and tried to reproduce the original as well as possible.
 However, I could not make a red chart after exceeding 50%, and I could not create the same main chart. This is because the library I used has some limitations. In this application I also did not focus on RWD. The application looks best on the screen 1920X1080. To create a responsive website I would need an additional 4h (because the generated charts are created using ApexCharts) and guidelines.
 
-## This is how it looks after 4h of working
+## This is how it looked after 4h of working
 ![Screenshot](screenshot.png)
 I was stopped at charts. The biggest problem is not the difficult task, but lack of time.
 
