@@ -1,0 +1,37 @@
+.chart3Div {
+  padding: 20px;
+  padding-top: 50px;
+  position: relative;
+}
+
+.chart3Div .estimate {
+  display: flex;
+  justify-content: space-between;
+}
+.chart3Div .estimate .estimateTitle {
+  font-size: 0.85em;
+  font-weight: bold;
+  color: rgb(66, 138, 253);
+}
+.chart3Div .estimate .estimateValue {
+  font-weight: bold;
+  color: rgb(241, 241, 241);
+}
+.chart3Div .chartSubtitle {
+  display: block;
+  text-align: center;
+  width: 88%;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: rgb(241, 241, 241);
+  position: absolute;
+  top: 195px;
+}
+.chart3Div .chartText {
+  position: absolute;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: rgb(241, 241, 241);
+  bottom: 4vh;
+  width: 100%;
+}

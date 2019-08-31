@@ -1,27 +1,74 @@
 .topBarDiv {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(155, 155, 255);
-  height: 100px;
+  height: 60px;
+  align-items: center;
+  background-color: white;
+  animation-duration: 0.8s;
+  animation-name: slidein;
 }
-.rightData {
+@keyframes slidein {
+  from {
+    margin-top: -60px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+.topBarDiv .leftTopBarPart {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 60px;
 }
-.topBarDiv .searchIcon,
-.topBarDiv .notificationIcon,
-.topBarDiv .userIcon,
-.topBarDiv .burgerIcon {
-  width: 3em;
-  height: 3em;
-  background-color: rgb(212, 18, 18);
-  margin: 20px;
+.topBarDiv .leftTopBarPart button {
+  border: 0px;
+  background-color: white;
+  outline: none;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
 }
-
-.topBarDiv .aboutUser .nameUser {
-  font-size: 1.2em;
+.topBarDiv .leftTopBarPart button:active {
+  background-color: white;
 }
-.topBarDiv .aboutUser .statusUser {
+.topBarDiv .rightTopBarPart {
+  margin-right: 1.5vw;
+  display: flex;
+  justify-content: flex-end;
+}
+.topBarDiv .rightTopBarPart button {
+  border: 0px;
+  background-color: white;
+  outline: none;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+.topBarDiv button:hover {
+  background-color: rgb(243, 243, 243);
+}
+.topBarDiv .rightTopBarPart .aboutUser {
+  height: 60px;
+  width: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.topBarDiv .rightTopBarPart .aboutUser .nameUser {
+  text-align: right;
+  margin-top: 25px;
+  font-weight: bold;
   font-size: 0.9em;
+}
+.topBarDiv .rightTopBarPart .aboutUser .statusUser {
+  text-align: right;
+  color: rgb(93, 154, 255);
+  font-weight: bold;
+  font-size: 0.7em;
+}
+.topBarDiv button img {
+  width: 20px;
+}
+.topBarDiv .userButton img {
+  width: 40px;
 }

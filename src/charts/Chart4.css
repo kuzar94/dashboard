@@ -1,0 +1,36 @@
+.chart4Div {
+  padding: 30px;
+  padding-top: 50px;
+}
+.chart4Div h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.chart4Div .progressBar {
+  height: 10px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+  border: 0px;
+  width: 100%;
+}
+.chart4Div .progressBar .fillBar {
+  height: 10px;
+  background-color: rgb(66, 138, 253);
+  border-radius: 5px;
+  border: 0px;
+}
+.chart4Div .perfomanceBars .progressAbout {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: rgb(177, 171, 171);
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+.chart4Div .perfomanceBars .progressAbout .progressPercentage {
+  color: rgb(66, 138, 253);
+}
+.chart4Div .perfomanceBars {
+  margin-top: 50px;
+}

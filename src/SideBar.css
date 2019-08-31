@@ -1,23 +1,43 @@
 .sideBarDiv {
-  height: 100vh;
-  width: 85px;
-  background-color: rgb(97, 240, 97);
+  height: calc(100vh - 60px);
+  width: 60px;
+  background-color: rgb(93, 154, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
   position: absolute;
   z-index: 2;
+  padding-top: 50px;
+  animation-duration: 0.8s;
+  animation-name: slideinSide;
 }
-.sideBarDiv .homeIcon,
-.sideBarDiv .starIcon,
-.sideBarDiv .rectangleIcon,
-.sideBarDiv .fileIcon,
-.sideBarDiv .personIcon {
-  width: 2em;
-  height: 2em;
-  background-color: rgb(212, 18, 18);
-  margin-top: 30px;
+@keyframes slideinSide {
+  from {
+    margin-left: -60px;
+    margin-top: 60px;
+  }
+  to {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
 }
-.sideBarDiv .homeIcon {
-  margin-top: 50px;
+.sideBarDiv button {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(93, 154, 255);
+  border: 0px;
+  outline: none;
+}
+.sideBarDiv button:hover {
+  background-color: rgb(97, 141, 212);
+  cursor: pointer;
+}
+.sideBarDiv button:active {
+  padding-top: 1px;
+}
+.sideBarDiv button:focus {
+  border-right: 2px solid white;
+}
+.sideBarDiv button img {
+  width: 20px;
 }

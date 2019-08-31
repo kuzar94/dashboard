@@ -1,0 +1,72 @@
+.chart1Div {
+  padding: 30px;
+  padding-top: 50px;
+}
+.chart1Div .price {
+  display: flex;
+}
+.chart1Div .price h3 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.chart1Div .price h5 {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 6px;
+  padding-left: 8px;
+}
+.chart1Div h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(16, 197, 137);
+  padding-top: 7px;
+}
+.chart1Div p {
+  font-size: 0.7em;
+  font-weight: bold;
+  color: rgb(177, 171, 171);
+}
+.chart1Div button {
+  background-color: rgb(66, 138, 253);
+  border: 0px;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 20px;
+  height: 43px;
+  border-radius: 22px;
+  color: white;
+  font-family: "Manjari", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+.chart1Div button:hover {
+  background-color: rgb(97, 141, 212);
+}
+.chart1Div .perfomanceBars {
+  margin-top: 20px;
+  height: 100%;
+}
+.chart1Div .perfomanceBars .progressBar {
+  height: 8px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+  border: 0px;
+  width: 40%;
+  min-width: 70px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.chart1Div .perfomanceBars .progressBar .fillBar1 {
+  height: 8px;
+  background-color: rgb(66, 138, 253);
+  border-radius: 4px;
+  border: 0px;
+}
+.chart1Div .perfomanceBars .progressBar .fillBar2 {
+  height: 8px;
+  background-color: rgb(253, 66, 66);
+  border-radius: 4px;
+  border: 0px;
+}

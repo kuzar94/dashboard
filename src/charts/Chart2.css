@@ -1,0 +1,20 @@
+.chart2Div {
+  padding: 50px 20px 0px 20px;
+}
+.chart2Div .selectDiv {
+  width: 92%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.chart2Div .selectDiv select {
+  border: 1px solid rgb(255, 255, 255);
+  outline: none;
+  font-family: "Manjari", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  height: 25px;
+  font-size: 1.1em;
+}
+.chart2Div .selectDiv select:hover {
+  background-color: rgb(241, 241, 241);
+}
